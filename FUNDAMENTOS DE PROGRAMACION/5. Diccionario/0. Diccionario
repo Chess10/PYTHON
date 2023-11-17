@@ -1,0 +1,10 @@
+Los diccionarios son *colecciones indexadas de datos, mutables y desordenadas.
+(*En Python 3.6x los diccionarios están ordenados de manera predeterminada.
+
+Cada diccionario es un par de {clave : valor}.
+
+my_dictionary = {
+    key1: value1,
+    key2: value2,
+    key3: value3,
+    }

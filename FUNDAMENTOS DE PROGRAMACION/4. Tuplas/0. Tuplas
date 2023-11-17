@@ -1,0 +1,6 @@
+ Las Tuplas son colecciones de datos ordenadas e inmutables. Se puede pensar en ellas como listas inmutables.
+ Se definen con paréntesis:
+
+ Cada elemento de la tupla puede ser de un tipo de dato diferente (por ejemplo, enteros, cadenas, boleanos, etc.).
+ Las tuplas pueden contener otras tuplas o listas (y viceversa).
+

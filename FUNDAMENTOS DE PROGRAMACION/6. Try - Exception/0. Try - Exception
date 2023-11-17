@@ -1,0 +1,17 @@
+
+En el mundo de Python, hay una regla que dice: "Es mejor pedir perdón que pedir permiso".
+En realidad, la regla dice: "es mejor manejar un error cuando ocurre que tratar de evitarlo".
+
+try:
+	# Es un lugar donde
+	# tu puedes hacer algo
+    # sin pedir permiso.
+except:
+	# Es un espacio dedicado
+    # exclusivamente para pedir perdón.
+
+
+Entonces, podríamos decir que estos dos bloques funcionan así:
+
+La palabra clave reservada try marca el lugar donde intentas hacer algo sin permiso.
+La palabra clave reservada except comienza un lugar donde puedes mostrar tu talento para disculparte o pedir perdón.
