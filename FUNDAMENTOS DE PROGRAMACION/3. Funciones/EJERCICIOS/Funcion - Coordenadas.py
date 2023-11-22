@@ -4,13 +4,11 @@ def coordenadaZ(x, y):
     return print (x + y)    #38, 40, 42
 
 # programa principal
-x = int(input("Coordenada eje x: "))    #6
-y = int(input("Coordenada eje y: "))    #7
+x = 6
+y = 7
 for i in range(3):
     z = coordenadaZ(x, y) #invoca a la funcion coodenadasZ
     x = x + 1   #6 + 3 del range = 9
     y = y + 1   #7 + 3 del range = 10
 
-print(x, " . ", y)
-
-
+print(x,".", y)
