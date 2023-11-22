@@ -1,3 +1,4 @@
+COMANDOS BASICOS PARA GITHUB
 
 1. CLONAR UN REPOSITORIA EN GIT-HUB
 
@@ -8,7 +9,7 @@ git clone URL-del-repositorio	-> Clonar repositorio.
 2. CREAMOS LA RAMA Y USARLA
 
 git branch nombre-de-mi-rama	-> Crea una rama
-git switch mi-nueva-rama
+git switch mi-nueva-rama		-> En algunos casos no funciona este comando
 git checkout nombre-de-la-rama 	
 
 =======================================================================================================
@@ -23,7 +24,7 @@ git add. 		-> Agrega todos los cambios en tu directorio de trabajo para tu zona 
 4. REALIZAMOS LA CONFIRMACION Y ENVIAR LOS CAMBIOS A MI REPOSITORIO REMOTO
 
 git commit -m "Descripcion"  -> Realiza la confirmacion en Git, -m es para agregar un comentario.
-git push		     -> Envia tus cambios confirmados desde mi repositorio local al repositorio remoto de Git.
+git push		     		 -> Envia tus cambios confirmados desde mi repositorio local al repositorio remoto de Git.
 git push origin nombre-de-tu-rama	    -> Especifica en que rama enviar los cambios confirmados
 
 =======================================================================================================
