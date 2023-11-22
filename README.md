@@ -1,7 +1,7 @@
 # PYTHON
 LENGUA DE PROGRAMACION PYTHON
 
-Aqui encontraras toda las estructuras y funciones basica del lengua Python, con ejercicios y definicios.
+Aqui encontraras toda las estructuras y funciones basica del lengua Python, con ejercicios y definiciones.
 
 Modulos
 0. Introduccion
