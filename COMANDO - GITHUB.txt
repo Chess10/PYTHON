@@ -1,0 +1,36 @@
+COMANDOS BASICOS PARA GITHUB
+
+1. CLONAR UN REPOSITORIA EN GIT-HUB
+
+git clone URL-del-repositorio	-> Clonar repositorio.
+
+=======================================================================================================
+
+2. CREAMOS LA RAMA Y USARLA
+
+git branch nombre-de-mi-rama	-> Crea una rama
+git switch mi-nueva-rama		-> En algunos casos no funciona este comando
+git checkout nombre-de-la-rama 	
+
+=======================================================================================================
+
+3. AGREGAMOS LOS ARCHIVOS MODIFICADOS
+
+git add archivo.modificado.py	-> Archivo definido para tu zona de preparacion
+git add. 		-> Agrega todos los cambios en tu directorio de trabajo para tu zona de preparacion.
+
+=======================================================================================================
+
+4. REALIZAMOS LA CONFIRMACION Y ENVIAR LOS CAMBIOS A MI REPOSITORIO REMOTO
+
+git commit -m "Descripcion"  -> Realiza la confirmacion en Git, -m es para agregar un comentario.
+git push		     		 -> Envia tus cambios confirmados desde mi repositorio local al repositorio remoto de Git.
+git push origin nombre-de-tu-rama	    -> Especifica en que rama enviar los cambios confirmados
+
+=======================================================================================================
+
+5. ACTUALIZACION DE LA RAMA PRINCIPAL EN MI PROYECTO Y SINCRONIZACION CON MI RAMA PRINCIPAL DE GITHUB
+	siempre la rama principal es 'main'
+
+git fetch 	-> Esto desacarga los cambio mas recienetes del repositorio remoto GitHub
+git pull	-> Esto fusionará los cambios de mi repositorio GitHub en mi rama local
