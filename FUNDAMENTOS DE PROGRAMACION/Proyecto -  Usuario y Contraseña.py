@@ -73,8 +73,10 @@ def registrar_cuenta(lista_usuarios):
         else:
             print("Las contraseñas no coinciden, ingrese nuevamente....")
             continue 
-    
-    print("Su cuenta ha sido creada con exito")
+
+    clear_screen()
+    print(" ** SU CUENTA SE CREO CORRECTAMENTE **")
+
     while True:
         print("\n¿Desea salir?")
         salir = input("Si o No: ")
@@ -84,7 +86,6 @@ def registrar_cuenta(lista_usuarios):
             registrar_cuenta(lista_usuarios)
         else:
             print("Ingrese un valor correcto....")
-
 
 
 list_users = {}
