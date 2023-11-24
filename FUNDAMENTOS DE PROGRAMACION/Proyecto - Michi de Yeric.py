@@ -117,11 +117,13 @@ while len(Espacios_Vacios(tablero)) != 0:
         Posicion_Computer(tablero)
         if Ganador_Juego(tablero) == True:
             print("GANADOR COMPUTADOR")
+            Vista_Tablero(tablero)
             break
     if len(Espacios_Vacios(tablero)) != 0:
         Posicion_Jugado(tablero)
         if Ganador_Juego(tablero) == True:
             print("TU GANASTE")
+            Vista_Tablero(tablero)
             break
     else:
         print("No hay espacios Disponibles")
