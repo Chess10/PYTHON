@@ -1,0 +1,31 @@
+clase = Es una plantilla o un plano para crear un objeto
+        Ejemplo: Plano de Contruccion
+
+        class Plano de Contruccion:
+            atributos
+            metodo():
+
+Intancias = Es una realizacion la clase 
+        Ejemplo: Edificio
+
+        Edificio = Plano de Contruccion(atributos)
+
+Objeto = Es un una Intancia especifica de una clase
+        Ejemplo:
+        Edificio, es un objeto ya que esta Intanciado de la clase Plano de Contruccion
+
+Atributos = Son rasgos, caracteristicas de una clase, es decir son variables que definen un objeto
+        clase Plano de Contruccion:
+            pisos
+            habitaciones
+            color
+            etc, todos estos son atributos de la clase
+
+Metodos = Son funciones o metodos definidos en una clase que realizan acciones un objeto
+        Ejemplo:
+
+        clase Plano de Contruccion:
+            Atributos
+            Cuartos() -> Este es un metodos definido en una clase
+
+Tipo = Se refiere a su clase que se utilizó para instanciar el objeto
